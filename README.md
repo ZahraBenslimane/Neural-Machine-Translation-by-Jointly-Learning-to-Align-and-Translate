@@ -11,5 +11,8 @@ Neural machine translation is a task that is becoming more and more essential fo
 the encoder.
 
 
+#### Dataset
+The WMT’ 14 dataset contains approximately 850M words, during our research the time needed for our model to train on the totallity of the dataset would be closer to 6 days. Evidently, we chose at first to shrink the dataset to a couple hundred thousand words, to facilitate the process and make sure our python code was correct before moving into the full dataset. We chose to concatenate the Europarl dataset with the IWSLT-17 dataset to form our mini-set. We were later able to treat th entire dataset which totaled a whopping 14GO of english sentences and their translation in french.
+
 
 
